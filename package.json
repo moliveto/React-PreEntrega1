@@ -7,7 +7,9 @@
     "dev": "vite --port 5173 --host",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -15,6 +17,7 @@
     "@fontsource/roboto": "^5.0.8",
     "@mui/icons-material": "^5.14.15",
     "@mui/material": "^5.14.15",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -27,5 +30,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.4.5"
-  }
+  },
+  "homepage": "https://github.com/moliveto/React-PreEntrega1"
 }
