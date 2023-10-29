@@ -13,3 +13,6 @@ Objetivos:
 Se debe entregar:
 * Crea un componente CartWidget.js que haga rendering de un ícono Cart, e inclúyelo dentro de NavBar.js para que esté visible en todo momento.
 * Crea un componente ItemListContainer. Impórtalo dentro de App.js, y abajo de NavBar.js. 
+
+La pagina se encuentra desplegada en:
+https://moliveto.github.io/React-PreEntrega1/
